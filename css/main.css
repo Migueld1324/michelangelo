@@ -1,0 +1,470 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@keyframes close-eyes {
+    0% {
+        height: 90%;
+        margin-top: 5%;
+    }
+
+    40% {
+        height: 90%;
+        margin-top: 5%;
+    }
+
+    45% {
+        height: 2%;
+        margin-top: 45px;
+    }
+
+    50% {
+        height: 90%;
+        margin-top: 5%;
+    }
+
+}
+
+@keyframes low-bright {
+    0% {
+        opacity: 1;
+    }
+
+    40% {
+        opacity: 1;
+    }
+
+    45% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+}
+
+@keyframes eat-pizza {
+    0% {
+        height: 150px;
+        margin-top: 300px;
+    }
+
+    25% {
+        margin-top: 200px;
+    }
+
+    50% {
+        margin-top: 180px;
+    }
+
+    75% {
+        margin-top: 180px;
+    }
+
+    100% {
+        margin-top: 180px;
+        height: 0px;
+    }
+
+}
+
+@keyframes marihuas-ojos {
+    0% {
+
+    }
+    100% {
+        background-color: #FF3333;
+        box-shadow: inset 0px 0px 1px #FF0000,
+                    inset 0px 0px 2px #FF0000,
+                    inset 0px 0px 3px #FF0000,
+                    inset 0px 0px 4px #FF0000,
+                    inset 0px 0px 5px #FF0000,
+                    inset 0px 0px 6px #FF0000,
+                    inset 0px 0px 7px #FF0000,
+                    inset 0px 0px 8px #FF0000,
+                    inset 0px 0px 9px #FF0000,
+                    inset 0px 0px 10px #FF0000,
+                    inset 0px 0px 11px #FF0000,
+                    inset 0px 0px 12px #FF0000,
+                    inset 0px 0px 13px #FF0000,
+                    inset 0px 0px 14px #FF0000,
+                    inset 0px 0px 15px #FF0000,
+                    inset 0px 0px 16px #FF0000,
+                    inset 0px 0px 17px #FF0000;
+    }
+
+}
+
+@keyframes marihuas-smoke {
+    0% {
+        transform: scale(1);
+    }
+
+    25% {
+        transform: scale(0.5) translate(-20px, 20px);
+    }
+
+    50% {
+        transform: scale(1);
+    }
+
+    75% {
+        transform: scale(0.5) translate(-20px, 20px);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes knot-move {
+    0% {
+        transform: scale(1) rotateZ(2deg);
+        transform-origin: right;
+    }
+
+    100% {
+        transform: scale(0.9) rotateZ(-4deg);
+        transform-origin: right;
+    }
+}
+
+body {
+    background-image: url("../images/gece.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 1300px;
+    height: 540px;
+}
+
+.michelangelo {
+    width: 600px;
+    height: 540px;
+    margin-left: 350px;
+}
+
+.back-head {
+    margin-top: 50px;
+    margin-left: 150px;
+    width: 300px;
+    height: 220px;
+    background-color: #98DB5A;
+    border-radius: 25%;
+    position: absolute;
+
+}
+
+.mask {
+    width: 300px;
+    height: 50px;
+    background-color: #f5793a;
+    margin-top: 55px;
+    position: absolute;
+
+}
+
+.left-eye {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-top: 45px;
+    background-color: #f5793a;
+    margin-left: 50px;
+    float: left;
+    position: absolute;
+
+}
+
+.black-left-eye{
+    width: 90%;
+    height: 90%;
+    background-color: black;
+    border-radius: 50%;
+    margin-left: 5%;
+    margin-top: 5%;
+    position: absolute;
+    animation-name: close-eyes;
+    animation-duration: 5s;
+    animation-fill-mode: both;
+    animation-delay: 0.5s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+
+}
+
+.right-eye {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-top: 45px;
+    background-color: #f5793a;
+    margin-left: 190px;
+    float: left;
+    position: absolute;
+
+}
+
+.black-right-eye{
+    width: 90%;
+    height: 90%;
+    background-color: black;
+    border-radius: 50%;
+    margin-left: 5%;
+    margin-top: 5%;
+    position: absolute;
+    animation-name: close-eyes;
+    animation-duration: 5s;
+    animation-fill-mode: both;
+    animation-delay: 0.5s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+
+}
+
+.bright {
+    height: 5px;
+    width: 5px;
+    background-color: #AAAAAA;
+    border-radius: 50%;
+    box-shadow: 0px 0px 1px #AAAAAA,
+                0px 0px 2px #AAAAAA,
+                0px 0px 3px #AAAAAA,
+                0px 0px 4px #AAAAAA,
+                0px 0px 5px #AAAAAA,
+                0px 0px 6px #AAAAAA,
+                0px 0px 7px #AAAAAA,
+                0px 0px 8px #AAAAAA,
+                0px 0px 9px #AAAAAA,
+                0px 0px 10px #AAAAAA,
+                0px 0px 11px #AAAAAA,
+                0px 0px 12px #AAAAAA,
+                0px 0px 13px #AAAAAA,
+                0px 0px 14px #AAAAAA,
+                0px 0px 15px #AAAAAA,
+                0px 0px 16px #AAAAAA,
+                0px 0px 17px #AAAAAA,
+                0px 0px 18px #AAAAAA,
+                0px 0px 19px #AAAAAA,
+                0px 0px 20px #AAAAAA;
+    margin-top: 15px;
+    margin-left: 15px;
+    animation-name: low-bright;
+    animation-duration: 5s;
+    animation-fill-mode: both;
+    animation-delay: 0.5s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+
+}
+
+.nose {
+    width: 200px;
+    height: 80px;;
+    background-color: #99d856;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 98px;
+    margin-left: 50px;
+    z-index: 3;
+
+}
+
+.nose-shadow {
+    width: 200px;
+    height: 80px;
+    position: absolute;
+    background-color: black;
+    margin-top: 102px;
+    margin-left: 50px;
+    border-radius: 50%;
+    z-index: 2;
+
+}
+
+.mouth {
+    width: 200px;
+    height: 80px;
+    position: absolute;
+    background-color: black;
+    margin-top: 102px;
+    margin-left: 50px;
+    border-radius: 50%;
+
+}
+
+.tongue-shadow {
+    width: 100px;
+    height: 70px;
+    position: absolute;
+    background-color: black;
+    margin-left: 100px;
+    margin-top: 140px;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 100%;
+
+}
+
+.mouth div:first-of-type {
+    width: 90px;
+    height: 40px;
+    background-color: black;
+    position: absolute;
+    transform: rotateZ(36deg);
+    margin-top: 45px;
+    margin-left: 10px;
+    border-bottom-right-radius: 25%;
+
+}
+
+.mouth div:last-of-type {
+    width: 90px;
+    height: 40px;
+    background-color: black;
+    position: absolute;
+    transform: rotateZ(144deg);
+    margin-top: 45px;
+    margin-left: 100px;
+    border-top-right-radius: 25%;
+
+}
+
+.tongue {
+    width: 100px;
+    height: 60px;
+    position: absolute;
+    background-color: pink;
+    margin-top: 3px;
+    border-radius: 50%;
+
+
+}
+
+.knot-image {
+    height: 150px;
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 48px;
+    animation-name: knot-move;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-timing-function: steps(10);
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+
+.body-image {
+    height: 300px;
+    margin-top: 230px;
+    margin-left: 180px;
+    position: absolute;
+    z-index: -1;
+}
+
+.arms-image {
+    height: 420px;
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 138px;
+    z-index: -1;
+
+}
+
+.legs-image {
+    height: 400px;
+    margin-top: 210px;
+    margin-left: 145px;
+    position: absolute;
+    z-index: -2;
+
+}
+
+.pizza-image {
+    display: none;
+    height: 150px;
+    margin-left: 230px;
+    margin-top: 300px;
+    transform: rotate(30deg);
+    position: absolute;
+
+}
+
+.michelangelo:hover .pizza-image {
+    display: inline-block;
+    animation-name: eat-pizza;
+    animation-duration: 10s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    animation-iteration-count: 1;
+    animation-play-state: running;
+
+}
+
+.porro-image {
+    height: 100px;
+    position: absolute;
+    margin-top: 215px;
+    margin-left: 330px;
+    display: none;
+
+}
+
+.smoke-image {
+    height: 100px;
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 370px;
+    display: none;
+
+}
+
+.michelangelo:active .porro-image, .michelangelo:active .smoke-image {
+    display: inline-block;
+}
+
+.michelangelo:active .pizza-image {
+    display: none;
+}
+
+.michelangelo:active .black-left-eye, .michelangelo:active .black-right-eye {
+    animation-name: marihuas-ojos, close-eyes;
+    animation-duration: 5s;
+    animation-fill-mode: both;
+    animation-delay: 0.5s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+
+}
+
+
+.michelangelo:active .bright {
+    animation-name: low-bright;
+    animation-duration: 5s;
+    animation-fill-mode: both;
+    animation-delay: 0.5s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+
+.michelangelo:active .smoke-image {
+    animation-name: marihuas-smoke;
+    animation-duration: 10s;
+    animation-fill-mode: both;
+    animation-timing-function: ease-in;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+
+.michelangelo:active .tongue-shadow, .michelangelo:active .tongue, .michelangelo:active .mouth div  {
+    display: none;
+}
